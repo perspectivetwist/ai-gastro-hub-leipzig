@@ -3,6 +3,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ai-gastro-hub-leipzig.vercel.app"
+        }
+      ],
       "destination": "https://www.ki-gastronomie.com/staedte/leipzig/$1",
       "permanent": true
     }
